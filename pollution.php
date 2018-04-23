@@ -1,7 +1,7 @@
 <?php include "inc/html-top.inc"; ?>
 
 	<h2>Types of Pollution</h2>
-    <img src = "numbers.png" alt = "pollution statistics">
+    <img src = "images/numbers.png" alt = "pollution statistics">
 	
 	<h3>Oil</h3>
 	<p>Oil spills cause huge damage to the marine environment - but in fact are responsible for only around 12% of the oil entering the seas each year. According to a study by the US National Research Council, 36% comes down drains and rivers as waste and runoff from cities and industry. </p>
