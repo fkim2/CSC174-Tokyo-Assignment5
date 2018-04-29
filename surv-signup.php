@@ -6,17 +6,17 @@
 	<h1>Thank You for Subscribing</h1>
 <!--php code for sql connection and modifications-->
           <?php
-	          $dbhost = "_____";
-	          $dbuser = "____";
-	          $dbpass = "____";
-	          $dbname = "____";
+	          $dbhost = "localhost";
+	          $dbuser = "roots";
+	          $dbpass = "coffee";
+	          $dbname = "roots";
 	          $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 	          $SeeTrash = trim(stripcslashes($_POST['SeeTrash']));
 	          $PickTrash = trim(stripcslashes($_POST['PickTrash']));
 	          $PrevTrash = trim(stripcslashes($_POST['PrevTrash']));
 
-	          $query = "INSERT INTO ____ (SeeTrash, PickTrash, PrevTrash) VALUES ('$SeeTrash','$PickTrash','$PrevTrash')";
+	          $query = "INSERT INTO users (SeeTrash, PickTrash, PrevTrash) VALUES ('$SeeTrash','$PickTrash','$PrevTrash')";
 	          $result = mysqli_query($connection, $query);
 
           ?>

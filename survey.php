@@ -3,7 +3,7 @@
     <!--maybe we could have drop down options or radio buttons for options: rarely, sometimes, frequently -->
 
 	<h2>How often do you see trash on the ground?</h2>
-	<form action="survey-script.php" method="post">
+	<form action="surv-signup.php" method="post">
 		<br>
 		<input type="radio" name="SeeTrash" id="SeeTrash1" value="Almostalways">
 		<label for="SeeTrash1">Almost always</label></br>
