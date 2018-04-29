@@ -23,6 +23,9 @@ Comments were added to the survey webpage for the coder to see what kind of ques
 
 ### Designer
 
+### Notes
+Dynamic background created with https://www.gradient-animator.com/
+
 ### Coder
 
 
