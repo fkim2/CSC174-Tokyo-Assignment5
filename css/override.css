@@ -18,9 +18,17 @@ img {
     height: auto;
 }
 
+.image-holder{
+	margin: 50px;
+	padding-top: 100px;
+}
+
+
+/*COLORS*/
 .w3-container {
 	background-color: #BFD9E4;
 }
+
 
 /*colors
 DEEP BLUE: #006994;

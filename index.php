@@ -14,22 +14,6 @@
 
 <div class="content">
 <div class="w3-container">
-  		<!-- <h3>Mobile First Fluid Grid</h3> -->
-
-<!-- <div class="w3-row">
-  <div class="w3-col m1 w3-center w3-grey">1</div>
-  <div class="w3-col m1 w3-center">2</div>
-  <div class="w3-col m1 w3-center w3-grey">3</div>
-  <div class="w3-col m1 w3-center">4</div>
-  <div class="w3-col m1 w3-center w3-grey">5</div>
-  <div class="w3-col m1 w3-center">6</div>
-  <div class="w3-col m1 w3-center w3-grey">7</div>
-  <div class="w3-col m1 w3-center">8</div>
-  <div class="w3-col m1 w3-center w3-grey">9</div>
-  <div class="w3-col m1 w3-center">10</div>
-  <div class="w3-col m1 w3-center w3-grey">11</div>
-  <div class="w3-col m1 w3-center">12</div>
-</div> -->
 
 	<div class="w3-row">
 		<h2>The Problem: Marine Pollution</h2>
@@ -39,13 +23,6 @@
 		<div class="w3-col w3-container m4 l3">
 			<p>The ocean covers almost three quarters of our planet. Populations in coastal regions are growing and placing increasing pressure on coastal and marine ecosystems. Marine pollution of many kinds threatens the health of the ocean and its living resources. While the past decades have seen efforts at the local, national, and international levels to address the problems of marine pollution, more needs to be done.</p>		
 		</div>
-		<!-- <h2>The Problem: Marine Pollution</h2>
-		<div class="w3-col w3-container w3-half "> 
-			<img src = "images/trashBeach.jpg" alt = "trash on beach">
-		</div>
-		<div class="w3-col w3-container w3-half">
-			<p>The ocean covers almost three quarters of our planet. Populations in coastal regions are growing and placing increasing pressure on coastal and marine ecosystems. Marine pollution of many kinds threatens the health of the ocean and its living resources. While the past decades have seen efforts at the local, national, and international levels to address the problems of marine pollution, more needs to be done.</p>		
-		</div> -->
 	</div>
 
 	<div class="w3-row">
