@@ -4,9 +4,15 @@
 font-family: 'Dancing Script', cursive;
 font-family: 'Lobster', cursive;*/
 
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
 
 body{
 	background-color: #006994; 
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Lobster', cursive;
 }
 
 .content {
