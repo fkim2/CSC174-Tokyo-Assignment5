@@ -7,11 +7,17 @@ font-family: 'Lobster', cursive;*/
 @import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
 
 body{
-	background-color: #1CA1D9; 
+	/*background-color: #1CA1D9; */
 	font-family: 'Raleway', sans-serif;
+	/*animation: pulse 5s infinite;*/
 
+	background: linear-gradient(133deg, #064274, #76b5c4, #003858, #007abf);
+	background-size: 800% 800%;
 
-	/*animated background*/
+	-webkit-animation: OceansBackground 21s ease infinite;
+	-moz-animation: OceansBackground 21s ease infinite;
+	animation: OceansBackground 21s ease infinite;
+/*
 	background: linear-gradient(133deg, #064274, #76b5c4, #003858, #007abf);
 	background-size: 800% 800%;
 
@@ -33,7 +39,7 @@ body{
 	    0%{background-position:0% 60%}
 	    50%{background-position:100% 41%}
 	    100%{background-position:0% 60%}
-	}
+	}*/
 }
 
 h1, h2, h3 {
@@ -54,7 +60,7 @@ img {
 	/*background-color: #BFD9E4;*/
 }
 
-.w3-button {
+.w3-button,  {
 	background-color: #006994;
 }
 
@@ -71,6 +77,36 @@ img {
 	color: white;
 }
 
+.background-element {
+  width: 100%;
+  height: 100%;
+  animation: pulse 5s infinite;
+}
+
+@-webkit-keyframes OceansBackground {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+@-moz-keyframes OceansBackground {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+@keyframes OceansBackground { 
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+
+/*@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}*/
 
 /*Colors
 
