@@ -1,5 +1,5 @@
 <nav class = "navbar">
-	<div class="w3-bar w3-black">
+	<div class="w3-bar">
 		<h1 class="w3-bar-item">Save Our Oceans</h1>
 
   		<a href="index.php" class="w3-bar-item w3-button w3-right">Home</a>

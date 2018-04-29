@@ -5,7 +5,7 @@
 
   <div class="content">
   <div class="w3-card-4">
-    <div class="w3-container" style="background-color: #1CA1D9;">
+    <div class="w3-container" style="background-color: #064274;">
       <h2 style="color: #DEF3F6;">Input Form</h2>
     </div>
 

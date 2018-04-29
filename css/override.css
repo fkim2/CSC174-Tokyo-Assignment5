@@ -7,8 +7,33 @@ font-family: 'Lobster', cursive;*/
 @import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
 
 body{
-	background-color: #006994; 
+	background-color: #1CA1D9; 
 	font-family: 'Raleway', sans-serif;
+
+
+	/*animated background*/
+	background: linear-gradient(133deg, #064274, #76b5c4, #003858, #007abf);
+	background-size: 800% 800%;
+
+	-webkit-animation: OceansBackground 21s ease infinite;
+	-moz-animation: OceansBackground 21s ease infinite;
+	animation: OceansBackground 21s ease infinite;
+
+	@-webkit-keyframes OceansBackground {
+	    0%{background-position:0% 60%}
+	    50%{background-position:100% 41%}
+	    100%{background-position:0% 60%}
+	}
+	@-moz-keyframes OceansBackground {
+	    0%{background-position:0% 60%}
+	    50%{background-position:100% 41%}
+	    100%{background-position:0% 60%}
+	}
+	@keyframes OceansBackground { 
+	    0%{background-position:0% 60%}
+	    50%{background-position:100% 41%}
+	    100%{background-position:0% 60%}
+	}
 }
 
 h1, h2, h3 {
@@ -17,6 +42,7 @@ h1, h2, h3 {
 
 .content {
 	margin: 100px;
+	background-color: #BFD9E4;
 }
 
 img {
@@ -25,7 +51,7 @@ img {
 }
 
 .w3-container {
-	background-color: #BFD9E4;
+	/*background-color: #BFD9E4;*/
 }
 
 .w3-button {
@@ -36,6 +62,13 @@ img {
 	text-align: center;
 	display: flex; 
 	justify-content: center; 
+}
+
+.w3-bar {
+	background-color: #064274;
+}
+.w3-bar-item{
+	color: white;
 }
 
 
