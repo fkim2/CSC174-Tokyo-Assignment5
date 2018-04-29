@@ -28,6 +28,28 @@ img {
 	background-color: #BFD9E4;
 }
 
+.w3-button {
+	background-color: #006994;
+}
+
+.buttonHolder{ 
+	text-align: center;
+	display: flex; 
+	justify-content: center; 
+}
+
+
+/*Colors
+
+Dark Blue: #064274;
+Light Teal: #76B5C4;
+Sky Blue: #7FCDFE;
+Main Blue: #1CA1D9;
+Gray: #DEF3F6;
+
+
+*/
+
 /*colors
 DEEP BLUE: #006994;
 BLUE GRAY: #BFD9E4;

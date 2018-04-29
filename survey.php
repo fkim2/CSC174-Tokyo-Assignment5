@@ -5,8 +5,8 @@
 
   <div class="content">
   <div class="w3-card-4">
-    <div class="w3-container w3-green">
-      <h2>Input Form</h2>
+    <div class="w3-container" style="background-color: #1CA1D9;">
+      <h2 style="color: #DEF3F6;">Input Form</h2>
     </div>
 
     <form class="w3-container" action="survey-script.php" method="post">
@@ -47,7 +47,9 @@
 		<h2>In what ways could YOU prevent further pollution?</h2>
 		<br><input class="w3-input" type="text" name="PrevTrash" cols="50" rows="8" id="textarea" placeholder="Describe Here"></br>
   
-		<td><input type="submit" onclick="alert('Cheers')" value="Submit" /></td>
+  		<div class="buttonHolder">
+			<td><input class="w3-button w3-white w3-hover-teal" type="submit" onclick="alert('Cheers')" value="Submit"></td>
+		</div>
 
     </form>
   </div>
