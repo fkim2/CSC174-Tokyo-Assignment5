@@ -1,5 +1,14 @@
 /*main style sheet*/
 
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;*/
+
+
+body{
+	background-color: #006994; 
+}
+
 .content {
 	margin: 100px;
 }
@@ -8,3 +17,16 @@ img {
     width: 100%;
     height: auto;
 }
+
+.w3-container {
+	background-color: #BFD9E4;
+}
+
+/*colors
+DEEP BLUE: #006994;
+BLUE GRAY: #BFD9E4;
+DEEP BLUE GRAY: ;
+
+
+
+*/
