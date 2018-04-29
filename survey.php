@@ -39,6 +39,9 @@
 	
 	<td><input type="submit" onclick="alert('Cheers')" value="Submit" /></td>
 
+	    <br><p>Go to<a href="admin.php"> Administration panel</a>.</p></br>
+
+
 
  </body>
  </html>
