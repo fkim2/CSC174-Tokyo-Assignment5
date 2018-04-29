@@ -3,9 +3,6 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php include "inc/html-top.inc"; ?>
-
-	<!-- <?php include "inc/css.inc"; ?> -->
-
 	
 	<title></title>
 

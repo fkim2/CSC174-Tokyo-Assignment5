@@ -4,13 +4,14 @@
 font-family: 'Dancing Script', cursive;
 font-family: 'Lobster', cursive;*/
 
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
 
 body{
 	background-color: #006994; 
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-h2 {
+h1, h2, h3 {
 	font-family: 'Lobster', cursive;
 }
 
@@ -22,12 +23,6 @@ img {
     width: 100%;
     height: auto;
 }
-
-.image-holder{
-	margin: 50px;
-	padding-top: 100px;
-}
-
 
 .w3-container {
 	background-color: #BFD9E4;
