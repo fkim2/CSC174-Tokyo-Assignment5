@@ -15,9 +15,6 @@
         
       </head>
       <body>
-        <header>
-            <h1><a href="index.php">Save Our Oceans</a></h1>
-        </header>
         
       <!-- Navigation bar -->
         <?php include "nav.inc";?>
