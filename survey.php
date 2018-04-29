@@ -2,6 +2,7 @@
 
     <!--maybe we could have drop down options or radio buttons for options: rarely, sometimes, frequently -->
 
+<<<<<<< HEAD
 
   <div class="content">
   <div class="w3-card-4">
@@ -23,6 +24,15 @@
 		</br>
 
 		<br><input class="w3-radio" type="radio" name="SeeTrash" id="SeeTrash2" value="Prettyoften">
+=======
+	<h2>How often do you see trash on the ground?</h2>
+	<form action="surv-signup.php" method="post">
+		<br>
+		<input type="radio" name="SeeTrash" id="SeeTrash1" value="Almostalways">
+		<label for="SeeTrash1">Almost always</label></br>
+		
+		<br><input type="radio" name="SeeTrash" id="SeeTrash2" value="Prettyoften">
+>>>>>>> e6618fcaedaa7e7d3f305d01c42e33f3a83b7608
 		<label for="SeeTrash2">Pretty Often</label></br>
 		
 		<br><input class="w3-radio" type="radio" name="SeeTrash" id="SeeTrash3" value="Sometimes">
@@ -54,6 +64,9 @@
     </form>
   </div>
 </div>
+
+
+	    <br><p>Go to<a href="admin.php"> Administration panel</a>.</p></br>
 
 
 

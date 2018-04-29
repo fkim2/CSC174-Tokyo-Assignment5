@@ -31,6 +31,8 @@
 </div>
 </div>
 
+<p>Wanna Logout? <a href="Logout.php"> Click here</a>.</p>
+
 <!-- </body>
 
 </body> -->
