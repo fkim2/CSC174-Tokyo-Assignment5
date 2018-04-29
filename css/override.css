@@ -5,8 +5,13 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Lobster', cursive;*/
 
 
-body{
+/*body{
 	background-color: #006994; 
+	font-family: 'Oswald', sans-serif;
+}
+
+h1,h2,h3 {
+	font-family: 'Lobster', cursive;
 }
 
 .content {
@@ -24,11 +29,9 @@ img {
 }
 
 
-/*COLORS*/
 .w3-container {
 	background-color: #BFD9E4;
-}
-
+}*/
 
 /*colors
 DEEP BLUE: #006994;
