@@ -10,19 +10,8 @@
     </div>
 
     <form class="w3-container" action="survey-script.php" method="post">
-      <!-- <p>
-      <input class="w3-input" type="text">
-      <label>First Name</label></p>
-      <p>     
-      <input class="w3-input" type="text">
-      <label>Last Name</label></p> -->
-      	<h2>How often do you see trash on the ground?</h2>
-	  	<br>
-	      	<input class="w3-radio" type="radio" name="SeeTrash" id="SeeTrash1" value="Almostalways">
-			<label for="SeeTrash1">Almost always</label>
-		</br>
+    
 
-		<br><input class="w3-radio" type="radio" name="SeeTrash" id="SeeTrash2" value="Prettyoften">
 	<h2>How often do you see trash on the ground?</h2>
 	<form action="surv-signup.php" method="post">
 		<br>
@@ -55,7 +44,7 @@
 		<br><input class="w3-input" type="text" name="PrevTrash" cols="50" rows="8" id="textarea" placeholder="Describe Here"></br>
   
   		<div class="buttonHolder">
-			<td><input class="w3-button w3-white w3-hover-teal" type="submit" onclick="alert('Cheers')" value="Submit"></td>
+			<td><input class="w3-button w3-white w3-hover-teal w3-padding-large w3-xxlarge" type="submit" onclick="alert('Cheers')" value="Submit"></td>
 		</div>
 
     </form>

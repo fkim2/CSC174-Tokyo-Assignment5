@@ -8,7 +8,6 @@
 
 </head>
 <body>
-	<div class="background-element">
 
 <div class="content">
 <div class="w3-container">
@@ -34,7 +33,6 @@
 
 <p>Wanna Logout? <a href="Logout.php"> Click here</a>.</p>
 
-</div>
 </body>
 <!-- </body>
 
