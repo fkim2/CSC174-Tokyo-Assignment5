@@ -3,7 +3,7 @@
     <!--maybe we could have drop down options or radio buttons for options: rarely, sometimes, frequently -->
 
 
-  <div class="content">
+  <div class="content-survey">
   <div class="w3-card-4">
     <div class="w3-container" style="background-color: #064274;">
       <h2 style="color: #DEF3F6;">Input Form</h2>
