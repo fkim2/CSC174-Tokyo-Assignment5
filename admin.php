@@ -35,17 +35,30 @@ $(document).ready(function(){
     }  
     fetch_data();  
     $(document).on('click', '#btn_add', function(){  
-        var vote = $('#vote').text();  
-        if(vote == '')  
+        var SeeTrash = $('#SeeTrash').text();
+        var PickTrash = $('#PickTrash').text();  
+        var PrevTrash = $('#PrevTrash').text();  
+  
+        if(SeeTrash == '')  
         {  
-            alert("Enter your vote");  
+            alert("Enter your answer");  
+            return false;  
+        }
+        if(PickTrash == '')  
+        {  
+            alert("Enter your answer");  
+            return false;  
+        }
+        if(PrevTrash == '')  
+        {  
+            alert("Enter your answer");  
             return false;  
         }  
         
         $.ajax({  
             url:"insert.php",  
             method:"POST",  
-            data:{vote:vote},  
+            data:{SeeTrash:SeeTrash, PickTrash:PickTrash, PrevTrash:PrevTrash},  
             dataType:"text",  
             success:function(data)  
             {  
@@ -68,11 +81,21 @@ $(document).ready(function(){
             }  
         });  
     }  
-    $(document).on('blur', '.vote', function(){  
+    $(document).on('blur', '.SeeTrash', function(){  
         var id = $(this).data("id1");  
         var vote = $(this).text();  
-        edit_data(id, vote, "vote");  
+        edit_data(id, SeeTrash, "SeeTrash");  
+    }); 
+    $(document).on('blur', '.PickTrash', function(){  
+        var id = $(this).data("id2");  
+        var vote = $(this).text();  
+        edit_data(id, PickTrash, "PickTrash");  
     });  
+    $(document).on('blur', '.PrevTrash', function(){  
+        var id = $(this).data("id3");  
+        var vote = $(this).text();  
+        edit_data(id, PrevTrash, "PrevTrash");  
+    }); 
     
     $(document).on('click', '.btn_delete', function(){  
         var id=$(this).data("id2");  

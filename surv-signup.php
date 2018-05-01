@@ -9,14 +9,14 @@
 	          $dbhost = "localhost";
 	          $dbuser = "roots";
 	          $dbpass = "coffee";
-	          $dbname = "roots";
+	          $dbname = "table";
 	          $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 	          $SeeTrash = trim(stripcslashes($_POST['SeeTrash']));
 	          $PickTrash = trim(stripcslashes($_POST['PickTrash']));
 	          $PrevTrash = trim(stripcslashes($_POST['PrevTrash']));
 
-	          $query = "INSERT INTO users (SeeTrash, PickTrash, PrevTrash) VALUES ('$SeeTrash','$PickTrash','$PrevTrash')";
+	          $query = "INSERT INTO surv (SeeTrash, PickTrash, PrevTrash) VALUES ('$SeeTrash','$PickTrash','$PrevTrash')";
 	          $result = mysqli_query($connection, $query);
 
           ?>

@@ -1,7 +1,7 @@
 <?php  
- $connect = mysqli_connect("localhost", "roots", "coffee", "roots");  
+ $connect = mysqli_connect("localhost", "roots", "coffee", "table");  
  $output = '';  
- $sql = "SELECT * FROM users ORDER BY id DESC";  
+ $sql = "SELECT * FROM surv ORDER BY id DESC";  
  $result = mysqli_query($connect, $sql);  
  $output .= '  
       <div class="table-responsive">  

@@ -9,7 +9,7 @@
       <h2 style="color: #DEF3F6;">Input Form</h2>
     </div>
 
-    <form class="w3-container" action="survey-script.php" method="post">
+    <form class="w3-container" action="surv-signup.php" method="post">
     
 
 	<h2>How often do you see trash on the ground?</h2>
@@ -52,7 +52,7 @@
 </div>
 
 
-	    <br><p>Go to<a href="admin.php"> Administration panel</a>.</p></br>
+	    <br><p>Login if you are an administrator to access data table<a href="login.php"> Login</a>.</p></br>
 
 
 

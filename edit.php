@@ -1,9 +1,9 @@
 <?php  
- $connect = mysqli_connect("localhost", "roots", "coffee", "roots");  
+ $connect = mysqli_connect("localhost", "roots", "coffee", "table");  
  $id = $_POST["id"];  
  $text = $_POST["text"];  
  $column_name = $_POST["column_name"];  
- $sql = "UPDATE users SET ".$column_name."='".$text."' WHERE id='".$id."'";  
+ $sql = "UPDATE surv SET ".$column_name."='".$text."' WHERE id='".$id."'";  
  if(mysqli_query($connect, $sql))  
  {  
       echo 'Data Updated';  
