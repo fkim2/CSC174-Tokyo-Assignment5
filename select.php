@@ -1,8 +1,8 @@
-<?php  
- $connect = mysqli_connect("localhost", "roots", "coffee", "table");  
+<?php
+    include "config.php";
  $output = '';  
  $sql = "SELECT * FROM surv ORDER BY id DESC";  
- $result = mysqli_query($connect, $sql);  
+ $result = mysqli_query($connection, $sql);  
  $output .= '  
       <div class="table-responsive">  
            <table class="table table-bordered">  

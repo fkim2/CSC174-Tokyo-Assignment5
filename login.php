@@ -1,6 +1,5 @@
 <?php
-// Include config file
-require_once 'config.php';
+    include "config.php";
  
 // Define variables and initialize with empty values
 $username = $password = "";

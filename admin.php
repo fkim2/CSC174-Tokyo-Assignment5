@@ -1,38 +1,39 @@
-<?php
-// Initialize the session
-session_start();
- 
-// If session variable is not set it will redirect to login page
-if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-  header("location: login.php");
-  exit;
-}
-?>
-
 
 <?php include "inc/html-top.inc"; ?>
-<title>Administration Panel</title>  
-<h1>Survey Data Management</h1>
+    <title>Administration Panel</title>  
+    
+    <h1>Survey Data Management</h1>
 
-<div class="container">  
-            <div class="table-responsive">  
-                <span id="result"></span>
-                <div id="live_data"></div>                 
-            </div>  
-        </div>
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
+      </head> 
 
-<script>  
-$(document).ready(function(){  
-    function fetch_data()  
-    {  
-        $.ajax({  
-            url:"select.php",  
-            method:"POST",  
-            success:function(data){  
-                $('#live_data').html(data);  
-            }  
-        });  
-    }  
+      <body>  
+           <div class="container">  
+                <br />  
+                <br />  
+                <br />  
+                <div class="table-responsive">  
+                     <h3 align="center">Live Table Add Edit Delete using Ajax Jquery in PHP Mysql</h3><br />  
+                     <div id="live_data"></div>                 
+                </div>  
+           </div>  
+      </body>  
+ </html>  
+
+ <script>  
+ $(document).ready(function(){  
+      function fetch_data()  
+      {  
+           $.ajax({  
+                url:"select.php",  
+                method:"POST",  
+                success:function(data){  
+                     $('#live_data').html(data);  
+                }  
+           });  
+      }  
     fetch_data();  
     $(document).on('click', '#btn_add', function(){  
         var SeeTrash = $('#SeeTrash').text();
