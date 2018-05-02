@@ -6,11 +6,7 @@
 	<h1>Thank You for Subscribing</h1>
 <!--php code for sql connection and modifications-->
           <?php
-	          $dbhost = "localhost";
-	          $dbuser = "roots";
-	          $dbpass = "coffee";
-	          $dbname = "table";
-	          $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+			  include "config.php";
 
 	          $SeeTrash = trim(stripcslashes($_POST['SeeTrash']));
 	          $PickTrash = trim(stripcslashes($_POST['PickTrash']));
